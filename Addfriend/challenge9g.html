@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutual Friends</title>
+    <style>
+        .hyper{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr ;
+            position: fixed;
+            top: 30px;
+        }
+        .main{
+            height: 480px;
+            width: 250px;
+            padding: 8px 8px 6px 8px;
+            border: 2px;
+            border-style: solid;
+            border-color: rgb(165, 164, 164);
+            line-height: 7px;
+            box-shadow: 20px 20px 90px rgb(197, 197,197);
+            margin-right: 10px;
+        }
+        .image{
+            width: 250px;
+            height: 350px;
+            text-align: center;
+            border-radius: 3%;
+            
+        }
+        .name{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            font-weight: 800;
+        }
+        .mutual-friends{
+            font-size: 16px;
+            color: rgb(102, 99, 99);
+        }
+        button{
+            background-color: rgb(2, 137, 255);
+            color:white ;
+            font-weight: 550;
+            padding: 7px;
+            border-radius: 10%;
+            border-style: none;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="hyper">
+        <div class="main">
+            <img class="image" src="profile1.jpg">
+            <p class="name">Calio</p>
+            <p class="mutual-friends">3 mutual friends</p>
+            <button>Add Friend</button>
+        </div>
+        <div class="main">
+            <img class="image" src="profile2.jpg">
+            <p class="name">Malty</p>
+            <p class="mutual-friends">6 mutual friends</p>
+            <button>Add Friend</button>
+        </div>
+        <div class="main">
+            <img class="image" src="profile3.jpg">
+            <p class="name">Omla</p>
+            <p class="mutual-friends">11 mutual friends</p>
+            <button>Add Friend</button>
+        </div>
+        <div class="main">
+            <img class="image" src="profile4.jpg">
+            <p class="name">Sira</p>
+            <p class="mutual-friends">9 mutual friends</p>
+            <button>Add Friend</button>
+        </div>
+    </div>
+</body>
+</html>
